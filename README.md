@@ -26,3 +26,5 @@ N/A
 
 ###License
 Please refer to the LICENSE in the repo.
+  
+  This project was deployed on GitHub pages: https://sashak2609.github.io/Challenge-1/
