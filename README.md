@@ -1,19 +1,28 @@
 # Challenge-1
 Code refactor
 
+##Description
+The webpage of Horiseon, a marketing agency, is a mock-up of a project that involved a very important part of web development - accessibility. The key point of this project is to follow accessability standarts to keep the website optimized for search engines. It contains HTML, CSS files, README file and Image folder to work with. The Horiseon webpage was the best practice to review and refactor the code in order to make the search and user accsess easier.Using semantic HTML elements and making CSS more efficient, created a new accessible code for the Horison webpage.
 
-prework-study-guide
-Description
-The Prework Study Guide was created for clear systematization of the information provided. It includeds four topics, each of which contains main components that are learned during the prework course. It was designed in this particular way so that every student could see what exectly will be learned in this or that topic and easily find and use the information. This website guides the sudent through the basics of HTML, CSS, JavaScript, main Git commands that allows students to work in a team using online workspace called GitHub.
-
-Instalation
+###Instalation
 N/A
 
-Usage
-On the main page of Prework Study Guide we can see four sections. Each section has its own name - a new topic and content that shows what basic questions are viewed in each topic. So the student is aware of the steps taken through the HTML, CSS, Git and JavaScript to learn the basics. Besides, DevTools console shows the list of topics learned from prework, allowing to choose what topic should be first to study.
+###Usage
+In this project all the work was made in HTML file (index.html) and styled in CSS file (style.css). Working with HTML file basic div element were changed to semantic elements so that the site could be more responsive for search engines. A semantic element clearly describes its meaning to both the browser and the developer. This project's webpage contains such semantic elements:
 
-Credits
+*The <header> with <section> and navigation <nav> elements inside
+![alt text](assets/images/Header.png)
+
+*main part with <article> - independent, self-contained content and <figure> to wrap images and <aside> - an indirectly related content (a sidebar)
+![alt text](assets/images/Main.png)
+
+*The <footer> defines the end of the document.
+![alt text](assets/images/Footer.png)
+
+Accourding to that, the stylesheet needed some changes as well. Three <div> elements were changed into <section>. Some elements with the same properties for similar classes were united and organised as they appear in HTML. So the SCC file could become cleaner and more readable. Plus comments were added.
+
+###Credits
 N/A
 
-License
+###License
 Please refer to the LICENSE in the repo.
