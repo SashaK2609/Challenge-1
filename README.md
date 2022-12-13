@@ -10,13 +10,13 @@ N/A
 ###Usage
 In this project all the work was made in HTML file (index.html) and styled in CSS file (style.css). Working with HTML file basic div element were changed to semantic elements so that the site could be more responsive for search engines. A semantic element clearly describes its meaning to both the browser and the developer. This project's webpage contains such semantic elements:
 
-*The <header> with <section> and navigation <nav> elements inside
+*The HEADER with SECTION and navigation NAV elements inside
 ![alt text](assets/images/Header.png)
 
-*main part with <article> - independent, self-contained content and <figure> to wrap images and <aside> - an indirectly related content (a sidebar)
+*main part with ARTICLE - independent, self-contained content and FIGURE to wrap images and ASIDE - an indirectly related content (a sidebar)
 ![alt text](assets/images/Main.png)
 
-*The <footer> defines the end of the document.
+*The FOOTER defines the end of the document.
 ![alt text](assets/images/Footer.png)
 
 Accourding to that, the stylesheet needed some changes as well. Three <div> elements were changed into <section>. Some elements with the same properties for similar classes were united and organised as they appear in HTML. So the SCC file could become cleaner and more readable. Plus comments were added.
