@@ -1,3 +1,4 @@
+/*In this element padding and border are included in the width and height.*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,6 +10,7 @@ a {
 	text-decoration: none;
 }
 
+/*All the paragraphs have 16px font size*/
 p {
 	font-size: 16px;
 }
@@ -17,6 +19,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*A space around this header content is 20px*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +27,7 @@ body {
     color: #ffffff;
 }
 
+/*h1 element is displaid horizontally in one line like blocks.*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -33,6 +37,7 @@ body {
     color: #d9dcd6;
 }
 
+/*This section in the header is located on the right. The space around this element is 15px from the top. The space from the right of the element's border is 20px*/
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +55,7 @@ body {
     margin-left: 25px;
 }
 
+/*hero element has bottom margin set up to 25px. The height of 800px and width of 100% does not include padding, border and margin.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -82,11 +88,13 @@ body {
 	font-size: 36px;
 }
 
+/*The element is on the left of the page.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*The element is on the right of the page.*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -108,6 +116,7 @@ body {
     color: #ffffff;
 }
 
+/*The text in the block benefit point is centered.*/
 .benefit-point h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -119,6 +128,7 @@ body {
     max-width: 150px;
 }
 
+/*Footer is located below both left and right floated elements.*/
 .footer {
     padding: 30px;
     clear: both;
